@@ -1,0 +1,120 @@
+body {
+  font-family: "Times New Roman";
+}
+.conteiner {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(47, 90, 189, 0.848);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  padding: 50px;
+}
+
+.button {
+  padding: 50px;
+}
+
+.Sign {
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  font-size: 16.5px;
+  background-color: rgba(47, 19, 206, 0.647);
+}
+
+.content-wrap {
+  background: url(/IMG/Sea.jpeg);
+}
+
+.content {
+  width: 100%;
+  height: 500px;
+}
+
+.input {
+  /* display: flex; */
+  background: transparent;
+  width: 50%;
+  height: 50px;
+  border: 2.5px solid white;
+  border-radius: 15px;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+#button {
+  height: 58px;
+  width: 90px;
+  background-color: blue;
+  border: none;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+
+.company {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 75px;
+  font-size: 60px;
+  color: rgb(40, 43, 128);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.development {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(75, 132, 237);
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+input::placeholder {
+  padding-left: 10px;
+  color: rgba(51, 51, 107, 0.457);
+}
+
+.mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.web {
+  display: flex;
+  flex-direction: column;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  text-align: center;
+  padding-top: 150px;
+  
+}
+
