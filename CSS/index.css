@@ -42,7 +42,7 @@ body {
 }
 
 .input {
-  /* display: flex; */
+  display: flex;
   background: transparent;
   width: 50%;
   height: 50px;
@@ -83,7 +83,8 @@ form {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(75, 132, 237);
+  flex-wrap: wrap;
+  background-color: rgb(76, 105, 159);
 }
 
 .img {
@@ -100,16 +101,19 @@ input::placeholder {
 .mobile {
   display: flex;
   flex-direction: column;
+  background-color: rgb(75, 132, 237);
 }
 
 .web {
   display: flex;
   flex-direction: column;
+  background-color: rgb(75, 132, 237);
 }
 
 .game {
   display: flex;
   flex-direction: column;
+  background-color: rgb(75, 132, 237);
 }
 
 p {
