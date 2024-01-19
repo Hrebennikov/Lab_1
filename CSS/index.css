@@ -84,19 +84,7 @@ form {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: rgb(76, 105, 159);
-}
-
- @media screen and (min-width: 600px) {
-  body {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  body {
-    width: 100%;
-  }
+  background-color: rgb(75, 132, 237);
 }
 
 .img {
